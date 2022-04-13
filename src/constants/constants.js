@@ -12,9 +12,9 @@ export const projects = [
     title: 'Rv advisor',
     description:"This start a simple e-commerce for users in USA, with Rv vehicles, providing the opportunity to insure their vehicles, offer road assistance, tire insurance, all under the payment of memberships (using stripe). Today it is a whole social network where users can upload their posts, like systems, chat. Today it continues to grow and add features..",
     image: '/images/rv.png',
-    tags: ['React', 'Laravel','Mysql', 'Redux'],
+    tags: ['Php', 'Js','Mysql'],
     source: '',
-    visit: 'https://development.thervadvisor.com/Panel',
+    visit: 'https://panel.thervadvisor.com/',
     id: 1,
   },
   {
