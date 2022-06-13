@@ -8,16 +8,16 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () =>  (
   <Container>
     <Div1>
-      {/* <Link href="/">
+      <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+          <DiCssdeck size="3rem" /> <span>Portfolio :)</span>
         </a>
-      </Link> */}
+      </Link>
     </Div1>
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Projects</NavLink>
+          <NavLink>Projects  </NavLink>
         </Link>
       </li>
       <li>
@@ -25,11 +25,7 @@ const Header = () =>  (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>        
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>        
+        
     </Div2>
       <Div3>
         <SocialIcons href="https://github.com/cpandares" target="_blank">
