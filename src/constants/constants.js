@@ -35,6 +35,24 @@ export const projects = [
     visit: '',
     id: 3,
   },
+  {
+    title: 'shop-app',
+    description: "Eccomerce developed in React in frontend & sass for styles, is just a test with a api rest free, included axios for petitions http",
+    image: '/images/screencapture.png',
+    tags: ['React', 'Firebase', 'Sass', 'Axios'],
+    source: 'https://github.com/cpandares/eccomerce-static',
+    visit: 'https://shoppingc-app.netlify.app/',
+    id: 4,
+  },
+  {
+    title: 'Search gifs',
+    description: "A simple search engine of gifs, using fetch for http petitions, and just css for the styles.",
+    image: '/images/gifs.png',
+    tags: ['React', 'Css', 'fetch'],
+    source: 'https://github.com/cpandares/eccomerce-static',
+    visit: 'https://cpandares.github.io/react-gift/',
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
