@@ -31,8 +31,8 @@ export const projects = [
     description: "This is a code repository for the corresponding to one app developed in react, redux & firebase, where users can add notes from different memories, add images. Provide login with google.",
     image: '/images/journal.png',
     tags: ['React', 'Firebase', 'Redux'],
-    source: 'https://github.com/cpandares/journal-app',
-    visit: '',
+    source: 'https://github.com/cpandares/diario-react-18',
+    visit: 'https://app-journalr.netlify.app/auth/login',
     id: 3,
   },
   {
