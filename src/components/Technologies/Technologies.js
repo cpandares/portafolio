@@ -33,8 +33,9 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            * Node <br />
-            * Php <br /> 
+            * Node (Express, Moongose)<br />
+            * Php (Laravel ^5.6|^8.0 ) <br /> 
+            * Symfony ^4.0
           </ListParagraph>
         </ListContainer>
       </ListItem>
