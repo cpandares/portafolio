@@ -1,12 +1,39 @@
 export const projects = [
   {
+    title: 'Blog',
+    description: "Blog developed using laravel 8 + livewire, AdminLte was implemented as admin template for creating posts. It has CRUD of categories, tags. One-to-many and many-to-many relationship using Eloquent ORM, access policies, roles and permissions. Mysql database.",
+      image: '/images/blog.png',
+      tags: ['Laravel', 'Mysql', 'Liveware', 'Tailwind', 'Bootsrapp'],
+    source: 'https://github.com/cpandares/blod-admin',
+    visit: '',
+    id: 0,
+  },
+  {
+    title: 'Posts-TDD',
+    description: "CRUD of posts with laravel, focused on unit testing using TDD. Unit tests to verify its performance.",
+      image: '/images/livewire.png',
+      tags: ['Laravel', 'Mysql', 'Liveware', 'Php Unit', 'Tailwind'],
+    source: 'https://github.com/cpandares/tdd-laravel',
+    visit: '',
+    id: 1,
+  },
+  {
+    title: 'Eccommerce-Headphones',
+    description: "Eccomerce developed with React and NextJs as framerwork, backend in sanity.io, has stripe integration in test mode so it can be tested, animations with css.",
+      image: '/images/next.png',
+      tags: ['React', 'Nextjs', 'Css', 'Stripe'],
+    source: 'https://github.com/cpandares/eccomerce',
+    visit: 'https://eccomerce-git-main-cpandares.vercel.app/',
+    id: 1,
+  },
+  {
     title: 'Ventmove',
     description: "Using React, Symfony, Mysql to create a platform to make for all users create a page and integrate your Online Store, Reservation and Collection System, Online Events, Ticket Sales, Contact Manager (CRM), Financing Campaigns, Blog and Much More.",
       image: '/images/vent.png',
       tags: ['Symfony', 'Mysql', 'React', 'Sass'],
     source: '',
     visit: 'https://ventmove.com/',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Rv advisor',
@@ -15,7 +42,7 @@ export const projects = [
     tags: ['Php', 'Js','Mysql'],
     source: '',
     visit: 'https://panel.thervadvisor.com/',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Mern Calendar',
@@ -24,7 +51,7 @@ export const projects = [
       tags: ['React', 'MongoDb','Node', 'Express'],
     source: 'https://github.com/cpandares/calendar-react',
     visit: '',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Journal-app',
@@ -33,7 +60,7 @@ export const projects = [
     tags: ['React', 'Firebase', 'Redux'],
     source: 'https://github.com/cpandares/diario-react-18',
     visit: 'https://app-journalr.netlify.app/auth/login',
-    id: 3,
+    id: 5,
   },
   {
     title: 'shop-app',
@@ -42,7 +69,7 @@ export const projects = [
     tags: ['React', 'Firebase', 'Sass', 'Axios'],
     source: 'https://github.com/cpandares/eccomerce-static',
     visit: 'https://shoppingc-app.netlify.app/',
-    id: 4,
+    id: 6,
   },
   {
     title: 'Search gifs',
@@ -51,7 +78,7 @@ export const projects = [
     tags: ['React', 'Css', 'fetch'],
     source: 'https://github.com/cpandares/eccomerce-static',
     visit: 'https://cpandares.github.io/react-gift/',
-    id: 5,
+    id: 7,
   },
 ];
 
