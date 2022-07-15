@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Blog',
-    description: "Blog developed using laravel 8 + livewire, AdminLte was implemented as admin template for creating posts. It has CRUD of categories, tags. One-to-many and many-to-many relationship using Eloquent ORM, access policies, roles and permissions. Mysql database.",
+    description: "Blog developed using laravel 8 + livewire, AdminLte was implemented as an admin template for creating posts. It has a CRUD of categories and tags. One-to-many and many-to-many relationships using Eloquent ORM, access policies, roles, and permissions. Mysql database.",
       image: '/images/blog.png',
       tags: ['Laravel', 'Mysql', 'Liveware', 'Tailwind', 'Bootsrapp'],
     source: 'https://github.com/cpandares/blod-admin',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Posts-TDD',
-    description: "CRUD of posts with laravel, focused on unit testing using TDD. Unit tests to verify its performance.",
+    description: "CRUD of posts with laravel, focused on unit testing using TDD. Unit tests to verify its performance",
       image: '/images/livewire.png',
       tags: ['Laravel', 'Mysql', 'Liveware', 'Php Unit', 'Tailwind'],
     source: 'https://github.com/cpandares/tdd-laravel',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Eccommerce-Headphones',
-    description: "Eccomerce developed with React and NextJs as framerwork, backend in sanity.io, has stripe integration in test mode so it can be tested, animations with css.",
+    description: "Eccomerce developed with React and NextJs as the framework, backend in sanity.io, has stripe integration in test mode so who can test it, animations with CSS.",
       image: '/images/next.png',
       tags: ['React', 'Nextjs', 'Css', 'Stripe'],
     source: 'https://github.com/cpandares/eccomerce',
