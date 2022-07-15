@@ -9,12 +9,12 @@ export const Img = styled.img`
 `
 
 export const GridContainer = styled.section`
-
+display: grid;
+  grid-template-columns: 500px 1fr;
 padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
-justify-content: center;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -26,10 +26,8 @@ justify-content: center;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
- 
-  padding:20px;
-  width: 100%;
-}
+  text-align: center;
+  width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
