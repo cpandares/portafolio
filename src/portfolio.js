@@ -19,7 +19,52 @@ const about = {
 
 const projects = [
   
+  {
+    name: 'Journal-app',
+    description: "See in real time the top list of current cryptocurrencies, visualize in a table their current value in relation to the currency of your choice ($ or EUR), go to the detail of each currency and see more information..",
+    image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225811/samples/journal_jxmmkn.png',
+    stack: ['React', 'Material UI', 'Chart Js'],
+    sourceCode: 'https://github.com/cpandares/diario-react-18',
+    visit: 'https://app-journalr.netlify.app/auth/login',
+    
+  },
 
+  {
+    name: 'Crypto-Pool',
+    description: "This is a code repository for the corresponding to one app developed in react, redux & firebase, where users can add notes from different memories, add images. Provide login with google.",
+    image: 'https://res.cloudinary.com/cpandares/image/upload/v1661555247/samples/cripto_b2di4s.png',
+    stack: ['React', 'Firebase', 'Redux'],
+    sourceCode: 'https://github.com/cpandares/coin-market',
+    visit: 'https://coin-market-mfuvg6n4e-cpandares.vercel.app/',
+    
+  },
+  {
+    name: 'Eccommerce-Headphones',
+    description: "Eccomerce developed with React and NextJs as the framework, backend in sanity.io, has stripe integration in test mode so who can test it, animations with CSS.",
+      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225811/samples/next_w9tapd.png',
+    stack: ['React', 'Nextjs', 'Css', 'Stripe'],
+    sourceCode: 'https://github.com/cpandares/eccomerce',
+    visit: 'https://eccomerce-git-main-cpandares.vercel.app/',
+    
+  },
+  {
+    name: 'Rv advisor',
+    description: "This start a simple e-commerce for users in USA, with Rv vehicles, providing the opportunity to insure their vehicles, offer road assistance, tire insurance, all under the payment of memberships (using stripe). Today it is a whole social network where users can upload their posts, like systems, chat. ",
+      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225812/samples/rv_povtpe.png',
+    stack: ['Php', 'Js','Mysql','Git'],
+    sourceCode: '',
+    visit: 'https://panel.thervadvisor.com/',
+    
+  },
+  {
+    name: 'Ventmove',
+    description: "Using React, Symfony, Mysql to create a platform to make for all users create a page and integrate your Online Store, Reservation and Collection System, Online Events, Ticket Sales, Contact Manager (CRM), Financing Campaigns, Blog and Much More.",
+      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225812/samples/vent_xt7vp4.png',
+    stack: ['Symfony', 'Mysql', 'React', 'Sass'],
+    sourceCode: '',
+    visit: 'https://ventmove.com',
+    
+  },
   {
     name: 'Blog',
     description: "Blog developed using laravel 8 + livewire, AdminLte was implemented as an admin template for creating posts. It has a CRUD of categories and tags. One-to-many and many-to-many relationships using Eloquent ORM, access policies, roles, and permissions. Mysql database.",
@@ -38,52 +83,7 @@ const projects = [
     visit: '',
     
   },
-  {
-    name: 'Eccommerce-Headphones',
-    description: "Eccomerce developed with React and NextJs as the framework, backend in sanity.io, has stripe integration in test mode so who can test it, animations with CSS.",
-      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225811/samples/next_w9tapd.png',
-    stack: ['React', 'Nextjs', 'Css', 'Stripe'],
-    sourceCode: 'https://github.com/cpandares/eccomerce',
-    visit: 'https://eccomerce-git-main-cpandares.vercel.app/',
-    
-  },
-
-  {
-    name: 'Ventmove',
-    description: "Using React, Symfony, Mysql to create a platform to make for all users create a page and integrate your Online Store, Reservation and Collection System, Online Events, Ticket Sales, Contact Manager (CRM), Financing Campaigns, Blog and Much More.",
-      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225812/samples/vent_xt7vp4.png',
-    stack: ['Symfony', 'Mysql', 'React', 'Sass'],
-    sourceCode: '',
-    visit: 'https://ventmove.com',
-    
-  },
-  {
-    name: 'Rv advisor',
-    description: "This start a simple e-commerce for users in USA, with Rv vehicles, providing the opportunity to insure their vehicles, offer road assistance, tire insurance, all under the payment of memberships (using stripe). Today it is a whole social network where users can upload their posts, like systems, chat. ",
-      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225812/samples/rv_povtpe.png',
-    stack: ['Php', 'Js','Mysql','Git'],
-    sourceCode: '',
-    visit: 'https://panel.thervadvisor.com/',
-    
-  },
-  {
-    name: 'Mern Calendar',
-    description: "This is a code repository for the corresponding to an app developed in react & mongoDb with the ability to create users, and add events with a calendar, start date, end date, validations, etc.",
-      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225810/samples/calendar_atxcko.png',
-    stack: ['React', 'MongoDb','Node', 'Express'],
-    sourceCode: 'https://github.com/cpandares/calendar-react',
-    visit: '',
-    
-  },
-  {
-    name: 'Journal-app',
-    description: "This is a code repository for the corresponding to one app developed in react, redux & firebase, where users can add notes from different memories, add images. Provide login with google.",
-      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225811/samples/journal_jxmmkn.png',
-    stack: ['React', 'Firebase', 'Redux'],
-    sourceCode: 'https://github.com/cpandares/diario-react-18',
-    visit: 'https://app-journalr.netlify.app/auth/login',
-    
-  },
+  
   {
     name: 'Shop-app',
     description: "Eccomerce developed in React in frontend & sass for styles, is just a test with a api rest free, included axios for petitions http",
@@ -93,6 +93,19 @@ const projects = [
     visit: 'https://shoppingc-app.netlify.app/',
     
   },
+  
+ 
+  {
+    name: 'Mern Calendar',
+    description: "This is a code repository for the corresponding to an app developed in react & mongoDb with the ability to create users, and add events with a calendar, start date, end date, validations, etc.",
+      image: 'https://res.cloudinary.com/cpandares/image/upload/v1660225810/samples/calendar_atxcko.png',
+    stack: ['React', 'MongoDb','Node', 'Express'],
+    sourceCode: 'https://github.com/cpandares/calendar-react',
+    visit: '',
+    
+  },
+  
+ 
   {
     name: 'Search gifs',
     description: "A simple search engine of gifs, using fetch for http petitions, and just css for the styles.",
